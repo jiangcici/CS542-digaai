@@ -35,7 +35,10 @@ def string_vectorizer(strng, alphabet=string.ascii_lowercase+string.digits+"\\"+
 
 #print(len(names))
 
-def readDataSet(file='data/test.csv', SIZE=30 ):
+fileObject = open("data/test.csv","r+")
+SIZE = sum(1 for row in fileObject)
+
+def readDataSet(file='data/test.csv', SIZE=SIZE ):
 
     names = ["" for x in range(SIZE)]
     vectorized_names = [[] for x in range(SIZE) ]
@@ -87,6 +90,4 @@ d['$'] = 39
 d['+'] = 40
 # print(d)
 
-fileObject = open("data/test.csv","r+")
-SIZE = sum(1 for row in fileObject)
-print(readDataSet(file='data/test.csv', SIZE=30))
+readDataSet(file='data/test.csv', SIZE=SIZE)

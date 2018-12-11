@@ -1,6 +1,5 @@
 # CS542-digaai
 BU CS 542
-# GROUP 19: Digaai
 ### Project task
 Though there exists a large number of personal names on the Web, nationality prediction solely based on names has not been fully studied due to its difficulties in extracting subtle character level features. The goal of our project is to identify Brazilian names from a list of names and differentiating between Hispanic/Latino names that typify as Brazilian and that names that do not. This will assist Digaai in locating and classifying areas in the US with substantial Brazilian immigrant populations.
 

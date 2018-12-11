@@ -13,11 +13,11 @@ The dataset is provided by Kaggle and is shown in the dataset folder. The datase
 
 ## How to use the code
 ### Logistic regression
-Run the code in logistic_regression/logistic_regression.ipny
+Run the code in logistic_regression/logistic_regression.ipynb
 ### KNN
-Run the code in KNN/knn.ipny
+Run the code in KNN/knn.ipynb
 ### RNN
-Run the code in RNN/CS542_project_LSTM.ipny
+Run the code in RNN/CS542_project_LSTM.ipynb
 
 ## Result
 For logistic regression the accuracy is 0.5213

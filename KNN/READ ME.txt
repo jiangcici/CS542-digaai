@@ -1,0 +1,25 @@
+Python file jaro_kNN.py
+
+Using command line example: 
+
+python jaro_kNN.py --tr train.csv --te test.csv --cv_mode 0 --metric_mode wt --Gau_h 0.6 --kNN_k 50
+
+
+
+
+FLAGs:
+--tr  		Training file name
+
+--te  		Testing file name
+
+--cv_mode 	Use cross validation or not: (default: 0)
+		0 - not use
+		1 - use
+
+--metric_mode	Use what kind of distance measure (default: wt)
+		dist - use the original jaro similarity
+		wt - use Gaussian-weighted jaro similarity
+
+--Gau_h		The parameter in Gaussian weighting function, continuous (default: 0.6)
+
+--kNN_k		The number of k in kNN (default: 50), only valid when not using cross validation
